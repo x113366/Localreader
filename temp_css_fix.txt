@@ -1,0 +1,36 @@
+.reader-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  line-height: var(--line-height, 1.8);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.chapter-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid currentColor;
+  opacity: 0.8;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.chapter-content {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.chapter-content p {
+  text-indent: 2em;
+  margin-bottom: 1em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
